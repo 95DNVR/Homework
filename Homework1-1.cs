@@ -11,20 +11,15 @@ namespace _1_1
         static void Main(string[] args)
         {
             int nombersOfHours;
-            int priceOfMoney;
+            short houseHeight;
+            long targetDistance;
+            byte priceOfMoney;
             uint calories;
             float fatPercentage;
             double countingAccuracy;
             char plotNumber;
             string assemblyInstructions;
-            string characterHistory;
-            bool areYouReady;
             bool isMachineReady;
-            bool isCrystalInPocket;
-
-                
-               
-
         }
     }
 }
