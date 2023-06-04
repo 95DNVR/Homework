@@ -14,6 +14,7 @@ namespace Homework4_1
             int numberOfPicturesInOneRow = 3;
             int numberOfCompletedRow;
             int numberOfRemainingPicture;
+
             numberOfCompletedRow = numberOfPicture / numberOfPicturesInOneRow;
             numberOfRemainingPicture = numberOfPicture % numberOfPicturesInOneRow;
             Console.WriteLine("                       Специальная зона)" );
