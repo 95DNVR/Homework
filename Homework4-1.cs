@@ -11,11 +11,11 @@ namespace Homework4_1
         static void Main(string[] args)
         {
             int numberOfPicture = 52;
-            int oneRow = 3;
+            int numberOfPicturesInOneRow = 3;
             int numberOfCompletedRow;
             int numberOfRemainingPicture;
-            numberOfCompletedRow = numberOfPicture / oneRow;
-            numberOfRemainingPicture = numberOfPicture % oneRow;
+            numberOfCompletedRow = numberOfPicture / numberOfPicturesInOneRow;
+            numberOfRemainingPicture = numberOfPicture % numberOfPicturesInOneRow;
             Console.WriteLine("                       Специальная зона)" );
             Console.WriteLine(" (Ricardo Milos.jpg) (Billy Harington.jpg) (Van Darkholme.jpg)" );
             Console.WriteLine("                Картинок отображено - 3 из 3" );
