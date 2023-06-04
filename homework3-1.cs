@@ -18,6 +18,7 @@ namespace Cons
             int yearsBeforeRetairement;
             bool isYoungEnought;
             int yearsAfterRetairement;
+
             Console.Write("Здравствуйте, вас приветствует система индетификации завод УралМаш, пожалуйста укажите ваше имя ");
             name = Console.ReadLine();
             Console.Write(" Пожалуйста, назовите вашу должность ");
