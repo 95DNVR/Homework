@@ -10,7 +10,7 @@ namespace _1_1
     {
         static void Main(string[] args)
         {
-            int hour;
+            int nombersOfHours;
             int priceOfMoney;
             uint calories;
             float fatPercentage;
@@ -19,7 +19,8 @@ namespace _1_1
             string assemblyInstructions;
             string characterHistory;
             bool areYouReady;
-            bool haveACrystal;
+            bool isMachineReady;
+            bool isCrystalInPocket;
 
                 
                
