@@ -10,16 +10,16 @@ namespace _1_1
     {
         static void Main(string[] args)
         {
-            int moneyInMyPoсket;
+            int hour;
             int priceOfMoney;
-            uint howManyYearsDoIHaveToRepayTheLoan;
-            float issuePrice;
-            double priceOfRice;
-            char sectorPriseOnTheDrumLetter;
-            string writeToMeSomething;
-            string butWriteSomethingCool;
-            bool areYouHaveEnoughMoney;
-            bool areYouOldEnough;
+            uint calories;
+            float fatPercentage;
+            double countingAccuracy;
+            char plotNumber;
+            string assemblyInstructions;
+            string characterHistory;
+            bool areYouReady;
+            bool haveACrystal;
 
                 
                
