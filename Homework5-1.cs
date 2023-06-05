@@ -4,19 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework5_1
+namespace ConsoleApp12
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int firstNumber = 0;
-            int secondNumber = 1;
+            string name = "Симонов";
+            string surName = "Денис";
+            string auxiliaryVariable;
 
-            Console.WriteLine(" Число " + firstNumber + " больше числа " + secondNumber);
-            firstNumber++;
-            secondNumber--;
-            Console.WriteLine(" Число " + firstNumber + " больше числа " + secondNumber);
+            Console.Write("Ваше имя " + name + " ваша фамилия " + surName);
+            Console.WriteLine(" Перестановка переменных ");
+            auxiliaryVariable = Convert.ToString(name);
+            name = Convert.ToString(surName);
+            surName = Convert.ToString(auxiliaryVariable);
+            Console.WriteLine(" Ваше имя " + name + " ваша фамилия " + surName)
         }
     }
 }
