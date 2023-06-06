@@ -12,18 +12,15 @@ namespace Homework6_1
         {
             int availableGold;
             int numberOfCrystals;
-            int crystalCost = 2;                
-            int remainingGold;
-            int goldChange;
+            int crystalCost = 2;
 
             Console.Write(" Здравствуйте. Проходите не стесняйтесь сегодня акция все товары по " + crystalCost + " золотых.");
             Console.Write(" Сколько у вас золотых? ");
             availableGold = Convert.ToInt32(Console.ReadLine());
             Console.Write(" Сколько желаете взять кристаллов? ");
             numberOfCrystals = Convert.ToInt32(Console.ReadLine());
-            remainingGold = availableGold - (numberOfCrystals * crystalCost);
-            goldChange = availableGold -= remainingGold;
-            Console.WriteLine(" Итого за " + numberOfCrystals + " штук кристаллов с вас " + goldChange + " голды.Ваша сдача составляет " + remainingGold + " золотых");
+            availableGold -= numberOfCrystals * crystalCost;
+            Console.WriteLine(" Ваши " + numberOfCrystals + " кристалов. Ваша сдача " + availableGold + " золотых.");
         }
     }
 }
