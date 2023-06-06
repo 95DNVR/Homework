@@ -11,15 +11,15 @@ namespace ConsoleApp12
         static void Main(string[] args)
         {
             string name = "Симонов";
-            string surName = "Денис";
-            string auxiliaryVariable;
+            string surname = "Денис";
+            string bufferName;
 
-            Console.Write("Ваше имя " + name + " ваша фамилия " + surName);
+            Console.Write("Ваше имя " + name + " ваша фамилия " + surname);
             Console.WriteLine(" Перестановка переменных ");
-            auxiliaryVariable = Convert.ToString(name);
-            name = Convert.ToString(surName);
-            surName = Convert.ToString(auxiliaryVariable);
-            Console.WriteLine(" Ваше имя " + name + " ваша фамилия " + surName)
+            bufferName = name;
+            name = surname;
+            surname = bufferName;
+            Console.WriteLine(" Ваше имя " + name + " ваша фамилия " + surname);
         }
     }
 }
