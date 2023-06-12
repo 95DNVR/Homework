@@ -12,7 +12,7 @@ namespace Homework7_1
         {
             int numberOfGrannies;
             int visitTime = 10;
-            int timeInHour = 60;
+            int minutesInHour = 60;
             int vaitingTimeHours;
             int vaitingTimeMinutes;
             int placeLine;
@@ -20,8 +20,8 @@ namespace Homework7_1
             Console.Write(" Здравствуйте, добро пожаловать в элетронную очередь( внимание элекрофкация очереди не делает ожидание быстрее). Введите количество пациэнтов в очереди ");
             numberOfGrannies = Convert.ToInt32(Console.ReadLine());
             visitTime = numberOfGrannies * visitTime;
-            vaitingTimeHours = visitTime / timeInHour;
-            vaitingTimeMinutes = visitTime % timeInHour;
+            vaitingTimeHours = visitTime / minutesInHour;
+            vaitingTimeMinutes = visitTime % minutesInHour;
             placeLine = ++numberOfGrannies;
             Console.WriteLine(" Ваше место в очереди " + placeLine + " примерное время ожидания " + vaitingTimeHours + " часов " + vaitingTimeMinutes + " минут. Ожидайте");
         }
