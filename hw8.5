@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hw8._5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string userInput;
+            int numberOfUserInput;
+
+            Console.WriteLine("Введите пожаолуйста текст для вывода ");
+            userInput = Console.ReadLine();
+            Console.WriteLine("Введите пожалуйста количество выводов текста ");
+            numberOfUserInput = Convert.ToInt32(Console.ReadLine());
+
+            while (numberOfUserInput >= 1 )
+            {
+                Console.WriteLine(numberOfUserInput + " " + userInput);
+                numberOfUserInput--;
+            }
+        }
+    }
+}
